@@ -58,8 +58,7 @@ class Main {
 
       
       
-       
-      scan.nextLine();
+       scan.nextLine();
         System.out.println("Podaj datę urodzenia DD-MM-YYY");
         var date = scan.nextLine();
         (new Service()).addStudent(new Student(name, age, date));
